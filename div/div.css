@@ -1,0 +1,29 @@
+/* descendant select */
+
+/* .container h2 {
+  color: blue;
+} */
+
+/* childselector  */
+
+.container > h2 {
+  color: red;
+}
+
+/* childselector (son div) */
+
+/* .subcontainer > h2 {
+  color: red;
+} */
+
+/* adjacent sibling with adda element */
+
+/* .container + h3,
+.container + h3 + h3 + h3 {
+  color: blueviolet;
+} */
+/* general sibling  */
+
+/* .container ~ h3 {
+  color: green;
+} */
