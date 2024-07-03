@@ -1,0 +1,35 @@
+/* border individual*/
+* {
+  margin: 0%;
+}
+h1 {
+  border-width: 15px;
+  border-style: dotted;
+  border-color: rgb(0, 0, 0);
+  border-top: 15px solid green;
+  border-right: 15px solid green;
+  border-bottom: 15px solid green;
+  border-left: 15px solid green;
+  margin: 30px 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 650px;
+  border-radius: 20px;
+}
+/* border shorthand*/
+p {
+  color: blue;
+  border: 10px solid red;
+  margin: 60px 120px;
+  padding: 50px;
+  border-radius: 20px;
+}
+img {
+  border: 15px solid cornflowerblue;
+  margin-left: 580px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
