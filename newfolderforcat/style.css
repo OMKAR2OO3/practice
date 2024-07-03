@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+.list {
+  list-style-type: none;
+  background-color: aquamarine;
+  margin: 90px;
+}
+.list li {
+  display: inline;
+  padding-right: 100px;
+  padding-left: 130px;
+  font-size: 30px;
+}
+.list li a {
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+/* hide and show using properity display the hover */
+
+.over h1 {
+  display: none;
+}
+.over:hover h1 {
+  display: block;
+}
+/* opacity */
+.name h2 {
+  opacity: 0;
+}
+.name h2 {
+  opacity: 0.5;
+}
+/* visibility */
+.hari h3 {
+  visibility: hidden;
+}
+.hari h3 {
+  visibility: visible;
+}
